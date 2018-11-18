@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                    Expires May 19, 2019                 [Page 1]
+Sattler                  Expires May 19, 2019                   [Page 1]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
@@ -69,9 +69,9 @@ Table of Contents
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   7
 
-Sattler                    Expires May 19, 2019                 [Page 2]
+Sattler                  Expires May 19, 2019                   [Page 2]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 1.  Introduction
 
@@ -117,9 +117,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                    Expires May 19, 2019                 [Page 3]
+Sattler                  Expires May 19, 2019                   [Page 3]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 3.  Report Headings
 
@@ -144,11 +144,11 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    
    Filename: example_unavailable-domains_2018-11-01.csv
    
-   TLD,DOMAIN,STATUS,
-   example,test1.example,REGISTRY RESERVED,
-   example,test2.example,POLICY RESERVED,
-   example,test3.example,REGISTERED,
-   example,xn--4gqvdy3r.example,REGISTERED,
+   TLD,DOMAIN,STATUS
+   example,test1.example,REGISTRY RESERVED
+   example,test2.example,POLICY RESERVED
+   example,test3.example,REGISTERED
+   example,xn--4gqvdy3r.example,REGISTERED
 
 4.2.  Multiple TLDs File Example
 
@@ -157,15 +157,15 @@ Internet-Draft           Registry Domain Fee Report        November 2018
    
    Filename: example-registry_unavailable-domains_2018-08.csv
 
-   TLD,DOMAIN,STATUS,
-   example1,test1.example1,REGISTRY RESERVED,
-   example2,test1.example2,POLICY RESERVED,
-   example3,test2.example3,REGISTERED,
-   xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED,
+   TLD,DOMAIN,STATUS
+   example1,test1.example1,REGISTRY RESERVED
+   example2,test1.example2,POLICY RESERVED
+   example3,test2.example3,REGISTERED
+   xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED
       
-Sattler                    Expires May 19, 2019                 [Page 4]
+Sattler                  Expires May 19, 2019                   [Page 4]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 5.  IANA Considerations
 
@@ -203,9 +203,9 @@ Internet-Draft           Registry Domain Fee Report        November 2018
 
    Add implementation details once available.
    
-Sattler                    Expires May 19, 2019                 [Page 5]
+Sattler                  Expires May 19, 2019                   [Page 5]
 
-Internet-Draft           Registry Domain Fee Report        November 2018
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 8.  References
 
@@ -256,5 +256,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                    Expires May 19, 2019                 [Page 7]
+Sattler                  Expires May 19, 2019                   [Page 7]
 
