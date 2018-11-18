@@ -49,29 +49,24 @@ Sattler                  Expires May 19, 2019                   [Page 1]
 Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 Table of Contents
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   3
-     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
+     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   2
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
-     2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   4
-   4.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
-     4.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   4
-     4.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   4
-   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
-   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
-   7.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   6
-     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   6
-     8.2.  Informative References  . . . . . . . . . . . . . . . . .   6
-   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   7
-   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   7
-
-Sattler                  Expires May 19, 2019                   [Page 2]
-
-Internet-Draft     Registry Unavailable Domain Report      November 2018
+   3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
+   4.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
+     4.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
+     4.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   3
+   5.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   6.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+   7.  Implementation Status . . . . . . . . . . . . . . . . . . . .   4
+   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     8.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
+     8.2.  Informative References  . . . . . . . . . . . . . . . . .   5
+   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
+   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Introduction
 
@@ -101,6 +96,10 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
+   
+Sattler                  Expires May 19, 2019                   [Page 2]
+
+Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 2.2.  Dates and Times
 
@@ -111,15 +110,6 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
-   
-2.4.  Currency
-
-   MUST be as defined in
-   [I-D.mcpherson-sattler-registry-report-structure].
-   
-Sattler                  Expires May 19, 2019                   [Page 3]
-
-Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 3.  Report Headings
 
@@ -163,7 +153,7 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
    example3,test2.example3,REGISTERED
    xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED
       
-Sattler                  Expires May 19, 2019                   [Page 4]
+Sattler                  Expires May 19, 2019                   [Page 3]
 
 Internet-Draft     Registry Unavailable Domain Report      November 2018
 
@@ -173,8 +163,8 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 6.  Security Considerations
 
-   The registry reporting reports described in this document do not
-   provide any security services.
+   The registry unavailable domain report described in this document
+   does not provide any security services.
 
 7.  Implementation Status
 
@@ -202,10 +192,6 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
    they see fit".
 
    Add implementation details once available.
-   
-Sattler                  Expires May 19, 2019                   [Page 5]
-
-Internet-Draft     Registry Unavailable Domain Report      November 2018
 
 8.  References
 
@@ -221,6 +207,10 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
               
+Sattler                  Expires May 19, 2019                   [Page 4]
+
+Internet-Draft     Registry Unavailable Domain Report      November 2018
+              
 8.2.  Informative References
 
    [I-D.mcpherson-sattler-registry-reporting-repo]
@@ -233,10 +223,6 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
               Running Code: The Implementation Status Section", RFC
               7942, July 2016,
               <https://www.rfc-editor.org/info/rfc7942>.
-              
-Sattler                    Expires May 19, 2019                 [Page 6]
-
-Internet-Draft           Registry Domain Fee Report        November 2018
 
 Appendix A.  Change History
 
@@ -256,5 +242,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires May 19, 2019                   [Page 7]
+Sattler                  Expires May 19, 2019                   [Page 5]
 
