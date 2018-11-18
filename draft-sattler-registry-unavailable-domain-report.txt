@@ -8,9 +8,9 @@ Expires: May 19, 2018                                  November 20, 2018
 
 Abstract
    
-   This document describes the content of an Unavailable Domain Name
-   Report based on the Registry Report Structure and delivered by the
-   Registry Reporting Repository.
+   This document describes the content of an unavailable domain name
+   report based on the registry report structure and delivered by the
+   registry reporting repository.
 
 Status of This Memo
 
@@ -86,8 +86,8 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
    each registry's intranet in a different manner according to each
    registry's own document management set up.
    
-   This document describes the content of an Unavailable Domain Name
-   Report based on the [I-D.mcpherson-sattler-registry-report-structure]
+   This document describes the content of an unavailable domain name
+   report based on the [I-D.mcpherson-sattler-registry-report-structure]
    and delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
 
 2.  Terminology and Definitions
@@ -245,9 +245,9 @@ Appendix B.  Acknowledgements
    The authors wish to thank the following persons for their feedback
    and suggestions (sorted alphabetically by company):
    
-   * Neal McPherson, 1&1 IONOS
-   * James Galvin, Afilias
-   * Roger Carney, GoDaddy
+   o Neal McPherson, 1&1 IONOS
+   o James Galvin, Afilias
+   o Roger Carney, GoDaddy
    
 Author's Address
 
