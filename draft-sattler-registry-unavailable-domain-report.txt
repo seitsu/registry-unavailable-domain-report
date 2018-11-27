@@ -116,10 +116,11 @@ Internet-Draft     Registry Unavailable Domain Report      November 2018
    The first row MUST be the column headings in the following order:
    
    TLD               It MUST contain the top-level domain name and
-                     formatted according section 2.1 of this document.
+                     formatted according to section 2.1 of this
+                     document.
    
    DOMAIN            It MUST contain the domain name formatted according
-                     section 2.1 of this document.
+                     to section 2.1 of this document.
    
    STATUS            It MUST contain the status of the domain name. It
                      MUST either be 'REGISTRY REGISTERED', 'REGISTERED',
