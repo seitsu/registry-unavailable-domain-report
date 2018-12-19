@@ -1,4 +1,4 @@
-## Registry Unavailable Domain Report
+## Unavailable Domain Report
 
 ### Goal
 The goal is to draft an Unavailable Domain Report based on the [Registry Report Structure] and will be delivered through the [Registry Reporting Repository]. It shall be submitted to the IETF as best practice and hopefully result in a [RFC].
