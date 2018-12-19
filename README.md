@@ -19,4 +19,4 @@ This is free and unencumbered software released into the public domain. For more
 [LICENSE]: /LICENSE
 [Registry Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
 [Registry Report Structure]: https://github.com/seitsu/registry-report-structure
-[draft]: /draft-sattler-registry-unavailable-domain-report.txt
+[draft]: /draft-sattler-unavailable-domain-report.txt
