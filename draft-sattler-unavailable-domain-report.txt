@@ -1,8 +1,8 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         R. Carney
-Expires: June 30, 2019                                      GoDaddy Inc.
-                                                       December 31, 2018
+Expires: June 26, 2019                                      GoDaddy Inc.
+                                                       December 27, 2018
 
                      Unavailable Domain Name Report
                 draft-sattler-unavailable-domain-report-00
@@ -28,7 +28,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on June 30, 2019.
+   This Internet-Draft will expire on June 26, 2019.
 
 Copyright Notice
 
@@ -45,7 +45,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires June 30, 2019                  [Page 1]
+Sattler & Carney          Expires June 26, 2019                 [Page 1]
 
 Internet-Draft          Unavailable Domain Report          December 2018
 
@@ -100,7 +100,7 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                  Expires June 30, 2019                  [Page 2]
+Sattler & Carney          Expires June 26, 2019                 [Page 2]
 
 Internet-Draft          Unavailable Domain Report          December 2018
 
@@ -157,7 +157,7 @@ Internet-Draft          Unavailable Domain Report          December 2018
    example3,test2.example3,REGISTERED
    xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED
       
-Sattler                  Expires June 30, 2019                  [Page 3]
+Sattler & Carney          Expires June 26, 2019                 [Page 3]
 
 Internet-Draft          Unavailable Domain Report          December 2018
 
@@ -211,7 +211,7 @@ Internet-Draft          Unavailable Domain Report          December 2018
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
               
-Sattler                  Expires June 30, 2019                  [Page 4]
+Sattler & Carney          Expires June 26, 2019                 [Page 4]
 
 Internet-Draft          Unavailable Domain Report          December 2018
               
@@ -264,5 +264,5 @@ Authors' Addresses
    Email: rcarney@godaddy.com
    URI:   http://www.godaddy.com
 
-Sattler                  Expires June 30, 2019                  [Page 5]
+Sattler & Carney          Expires June 26, 2019                 [Page 5]
 
