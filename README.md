@@ -1,7 +1,7 @@
 ## Unavailable Domain Report
 
 ### Goal
-The goal is to draft an Unavailable Domain based on the [Report Structure] and shall be delivered through the [Reporting Repository].
+The goal is to draft an Unavailable Domain Report based on the [Report Structure] and shall be delivered through the [Reporting Repository].
 
 ### Status
 The idea to create the Repository, the Structure and numerous Reports was first raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee, and further discussed and eventually approved in the [CPH TechOps] Group.
