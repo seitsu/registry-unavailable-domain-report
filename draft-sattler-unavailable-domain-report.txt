@@ -1,11 +1,11 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         R. Carney
-Expires: July 28, 2019                                      GoDaddy Inc.
-                                                        January 29, 2019
+Expires: September 23, 2019                                 GoDaddy Inc.
+                                                          March 24, 2019
 
                          Unavailable Domain Report
-                draft-sattler-unavailable-domain-report-01
+                draft-sattler-unavailable-domain-report-02
 
 Abstract
    
@@ -28,7 +28,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on July 28, 2019.
+   This Internet-Draft will expire on September 23, 2019.
 
 Copyright Notice
 
@@ -45,9 +45,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler & Carney          Expires July 28, 2019                 [Page 1]
+Sattler & Carney          Expires September 23, 2019            [Page 1]
 
-Internet-Draft          Unavailable Domain Report           January 2019
+Internet-Draft             Unavailable Domain Report          March 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -69,21 +69,22 @@ Table of Contents
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   5
      A.2.  Change from 00 to UNAVBL 00 . . . . . . . . . . . . . . .   5
      A.3.  Change from UNAVBL 00 to UNAVBL 01  . . . . . . . . . . .   5
-   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   5
+     A.4.  Change from UNAVBL 01 to UNAVBL 02  . . . . . . . . . . .   5
+   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
 1.  Introduction
 
-   Modern top-level domain registries provide a number of detailed
-   reports and documents that their registrars require on a daily,
-   weekly and monthly basis. These most commonly include transaction
-   reports, as well as lists containing currently unavailable domains
-   and current premium domain fees. These reports are critical for
-   registrars' businesses and play an important role in accounting and
-   operations processes as well as in sales and marketing activities.
-   In the current set-up registrars must download these reports from
-   each registry's intranet in a different manner according to each
-   registry's own document management set up.
+   Modern top-level domain registries provide many detailed reports and
+   documents that their registrars require on a daily, weekly and
+   monthly basis. These most commonly include transaction reports, as
+   well as lists containing currently unavailable domains and current
+   premium domain fees. These reports are critical for registrars'
+   businesses and play an important role in accounting and operations
+   processes as well as in sales and marketing activities. In the
+   current set-up, registrars must download these reports from each
+   registry's intranet differently according to each registry's document
+   management set up.
    
    This document describes the content of an Unavailable Domain Report
    based on the [I-D.mcpherson-sattler-report-structure] and delivered
@@ -101,9 +102,9 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-report-structure].
    
-Sattler & Carney          Expires July 28, 2019                 [Page 2]
+Sattler & Carney          Expires September 23, 2019            [Page 2]
 
-Internet-Draft          Unavailable Domain Report           January 2019
+Internet-Draft             Unavailable Domain Report          March 2019
 
 2.2.  Dates and Times
 
@@ -158,9 +159,9 @@ Internet-Draft          Unavailable Domain Report           January 2019
    example3,test2.example3,REGISTERED
    xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED
       
-Sattler & Carney          Expires July 28, 2019                 [Page 3]
+Sattler & Carney          Expires September 23, 2019            [Page 3]
 
-Internet-Draft          Unavailable Domain Report           January 2019
+Internet-Draft             Unavailable Domain Report          March 2019
 
 5.  IANA Considerations
 
@@ -211,9 +212,9 @@ Internet-Draft          Unavailable Domain Report           January 2019
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
               
-Sattler & Carney          Expires July 28, 2019                 [Page 4]
+Sattler & Carney          Expires September 23, 2019            [Page 4]
 
-Internet-Draft          Unavailable Domain Report           January 2019
+Internet-Draft             Unavailable Domain Report          March 2019
               
 8.2.  Informative References
 
@@ -241,6 +242,14 @@ A.2.  Change from 00 to UNAVBL 00
 A.3.  Change from UNAVBL 00 to UNAVBL 01
 
    Editorial changes.
+   
+A.4.  Change from UNAVBL 01 to UNAVBL 02
+
+   Editorial changes.
+   
+Sattler & Carney          Expires September 23, 2019            [Page 5]
+
+Internet-Draft             Unavailable Domain Report          March 2019
 
 Appendix B.  Acknowledgements
 
@@ -267,5 +276,5 @@ Authors' Addresses
    Email: rcarney@godaddy.com
    URI:   http://www.godaddy.com
 
-Sattler & Carney          Expires July 28, 2019                 [Page 5]
+Sattler & Carney          Expires September 23, 2019            [Page 6]
 
