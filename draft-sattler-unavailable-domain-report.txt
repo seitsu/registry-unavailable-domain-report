@@ -84,7 +84,7 @@ Table of Contents
    businesses and play an important role in accounting and operations
    processes as well as in sales and marketing activities. In the
    current set-up, registrars must download these reports from each
-   registry's intranet differently according to each registry's document
+   registry differently according to each registry's document
    management set up.
    
    This document describes the content of an Unavailable Domain Report
@@ -107,12 +107,8 @@ Sattler & Carney            Expires March 25, 2020              [Page 2]
 
 Internet-Draft             Unavailable Domain Report      September 2019
 
-2.2.  Dates and Times
-
-   MUST be as defined in
-   [I-D.mcpherson-sattler-report-structure].
    
-2.3.  Character Encoding
+2.2.  Character Encoding
 
    MUST be as defined in
    [I-D.mcpherson-sattler-report-structure].
@@ -121,44 +117,26 @@ Internet-Draft             Unavailable Domain Report      September 2019
 
    The first row MUST be the column headings in the following order:
    
-   TLD               It MUST contain the top-level domain name and
-                     formatted according to section 2.1 of this
+   LABEL             It MUST contain the domain label only (i.e. just
+                     the second-level part, no TLD or other parts)
+                     formatted according to section 2.2 of this
                      document.
    
-   DOMAIN            It MUST contain the domain name formatted according
-                     to section 2.1 of this document.
-   
    STATUS            It MUST contain the status of the domain name. It
-                     MUST either be 'REGISTRY REGISTERED', 'REGISTERED',
-                     'REGISTRY RESERVED' or 'POLICY RESERVED'.
+                     MUST either be 'RESERVED' or 'REGISTERED'.
 
-4.  Examples
+4.  Example
 
-4.1.  Single TLD File Example
-
-   This is an example of a domain fee report for a single top-level
-   domain .example with non-standard fees.
+   This is an example of an unavailable domain report for the
+   top-level domain .example:
    
    Filename: example_unavailable-domains_2018-11-01.csv.gz
    
-   TLD,DOMAIN,STATUS
-   example,test1.example,REGISTRY RESERVED
-   example,test2.example,POLICY RESERVED
-   example,test3.example,REGISTERED
-   example,xn--4gqvdy3r.example,REGISTERED
-
-4.2.  Multiple TLDs File Example
-
-   This is an example of a domain fee report for multiple top-level
-   domains from example registry with non-standard fees.
-   
-   Filename: example-registry_unavailable-domains_2018-11.csv.gz
-
-   TLD,DOMAIN,STATUS
-   example1,test1.example1,REGISTRY RESERVED
-   example2,test1.example2,POLICY RESERVED
-   example3,test2.example3,REGISTERED
-   xn--zckzah,xn--r8jz45g.xn--zckzah,POLICY RESERVED
+   LABEL,STATUS
+   test1,RESERVED
+   test2,RESERVED
+   test3,REGISTERED
+   xn--4gqvdy3r,REGISTERED
       
 Sattler & Carney            Expires March 25, 2020              [Page 3]
 
